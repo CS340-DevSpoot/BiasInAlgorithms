@@ -18,3 +18,4 @@ This repository is an assignment for Computer Ethics at Western Oregon Universit
 > 
 > Western Oregon University-CS 340, Omlid, A. (2026, May 25).
 
+[View This Site on GitHub Pages](https://github.com/CS340-DevSpoot/BiasInAlgorithms/deployments/github-pages)
