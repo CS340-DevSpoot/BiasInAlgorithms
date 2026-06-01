@@ -4,7 +4,7 @@ CS 340 Bias in Algorithms
 
 ---
 
-This repository is an assignment for Computer Ethics at Western Oregon University. The goal of this assignment is to create a basic html website with content that shows our understanding of the bias in agorithms.
+This repository is an assignment for Computer Ethics at Western Oregon University. The goal of this assignment is to create a basic html website with content that shows our understanding of the bias in algorithms.
 
 **Criteria For This Assignment:**
 > - Your website must have at least at least two headings

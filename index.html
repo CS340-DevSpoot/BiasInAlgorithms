@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <!-- 
-    Basic HTML Webpage with information on bias in aglorithms.
+    Basic HTML Webpage with information on bias in algorithms.
 
     @author NATHANIEL RIVERA
-    @verison CS 340 Bias in Algorithms, 5/27/2026
+    @version CS 340 Bias in Algorithms, 5/27/2026
 -->
 
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8">
-        <title>Bias in Aglorithms</title>
-        <meta name="description" content="Basic HTML Webpage with information on bias in aglorithms. Created by Nathaniel Rivera as an assignment for Computer Ethics at Western Oregon University.">
+        <title>Bias in Algorithms</title>
+        <meta name="description" content="Basic HTML Webpage with information on bias in algorithms. Created by Nathaniel Rivera as an assignment for Computer Ethics at Western Oregon University.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <nav>
-            <p id="navTitle">BIAS IN ALOGIRTHMS</p>
-            <p id="navName"></p>
+            <p id="navTitle">BIAS IN ALGORITHMS</p>
         </nav>
         
         <div class="container" id="mainGrid">
 
-            <div id="a"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae odit harum alias vero expedita sed labore nihil beatae tempore, doloribus cupiditate consequatur inventore quos magni commodi minus ex earum.</p></div>
-            <img/>
-            <img/>
-            <div id="b"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae odit harum alias vero expedita sed labore nihil beatae tempore, doloribus cupiditate consequatur inventore quos magni commodi minus ex earum.</p></div>
-            <div id="c"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio molestiae odit harum alias vero expedita sed labore nihil beatae tempore, doloribus cupiditate consequatur inventore quos magni commodi minus ex earum.</p></div>
-            <img/>
-
+            <div class="container card" id="inheritedBias">
+                <h2> AI Inherits Our Biases </h2>
+                <p> Bias can be seen as a human's instinct to make snap judgment's. When this element is integrated into AI the machine will reflect the programmer rather then reflecting a objective reality. Components of bias in AI include:</p>
+                <ul>
+                    <li> Failing to anticipate how machine learning might be manipulated or how it may interpret human data. </li>
+                    <li> Malicious actors intentionally feeding toxic data. </li>
+                    <li> Using data that lacks diversity. </li>
+                    <li> Implicit bias of well intended engineers seeping into data sets and algorithms. </li>
+                </ul>
+                   <a href="https://www.youtube.com/watch?v=eV_tx4ngVT0">Institute, T. (2018). Can we protect AI from our biases? | Robin Hauser | TED Institute. In Youtube.</a>
+            </div>
+            <img src="./assets/Why_AI_Inherits_Human_Biases.png"/>
+            <img src="https://www.nist.gov/sites/default/files/images/2022/03/14/22ITL003_risk-ai-final.jpg"/>
+            <div class="container card" id="codifiedPast">
+                <h2> Algorithms Codify Past Inequities </h2>
+                <p> AI Algorithms have largely been trained on data that has existed on the internet long before AI was created. The internet has contained historical biases, not just because historically marginalized groups have had less access to the internet but also because it is of human nature to be bias; those biases have now been embedded into training data that AI uses to train it's models, codifying the past. For this reason we must be careful when integrating AI into our society. For example, using AI in criminal justice can be problematic, think about the past arrest records, and how past prejudices may be automatically embed into the AI.</p>
+                <a href="https://wwnorton.com/books/Technically-Wrong/"> Wachter-Boettcher, S. (2017). TECHNICALLY WRONG : why digital products are designed to fail you. W W Norton. </a>
+            </div>
+            
         </div>
+
+        <footer class="container card"> 
+            This website was created to fulfill an assignment for Computer Ethics at Western Oregon University; the goal was to create a basic html and css website with content that demonstrates our understanding of bias in algorithms.
+        </footer>
         
     </body>
 </html>

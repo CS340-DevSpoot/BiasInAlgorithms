@@ -18,33 +18,76 @@ nav {
     padding: 10px;
     background-color: rgb(26, 26, 26);
     color: white;
-
-    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.399);
-    display: flex;
+    /* box-shadow: 0px 5px 0px rgba(250, 0, 0, 0.399); */
+    position: relative;
 }
 
-nav * {
-    margin-right: 10px;
+
+nav::after, nav::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 0px 0px 3px 0px;
 }
 
-#navName {
-    color: rgb(177, 177, 177);
+nav::before {
+    filter: blur(.5rem);
+    opacity: 0.5;
 }
 
-.container {
-    margin-top: 10px;
-    padding: 2em
-}
-
-.container * {
-    padding: .5em
+ul {
+    list-style-position: inside;
 }
 
 #mainGrid {
     display: grid;
     grid-template-columns: 50% 50%;
+    place-items: center;
+   
 }
 
-#a {
-    grid-row: auto;
+.container {
+    margin: 10px;
+    padding: 2em;
+
+}
+
+.container * {
+    padding: .5em;
+    color: white;
+}
+
+a:link {
+    color: rgb(119, 119, 119);
+    font-style: italic;
+}
+
+
+.card{
+    background: rgba(44, 44, 44, 0.564);
+    border-radius: .5em;
+    position: relative;
+}
+
+img {
+    width: 60%;
+    border-radius: 12px;
+}
+
+#inheritedBias {
+    background-color: rgba(87, 0, 0, 0.466);
+}
+
+#codifiedPast {
+    background-color: rgba(32, 87, 0, 0.466);
+}
+
+footer {
+    color: white;
 }
